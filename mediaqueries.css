@@ -1,0 +1,51 @@
+@media  (max-width: 1200px) {
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+}
+@media (max-width: 767px) {
+    .about-details-container {
+        gap: 1rem;
+    }
+}
+@media (max-width: 767px) {
+    .button,
+    .btn {
+    width: 50px; /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
+    text-align: center;
+    }
+}
+@media (max-width: 767px) {
+    .title {
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .btn {
+        font-size: 0.7rem; /* Decrease font size on smaller screens */
+        padding: 0.8rem 1.5rem; /* Adjust padding for smaller buttons */
+        min-width: 8rem; /* Set a minimum width for the buttons */
+    }
+}
+@media (max-width: 768px) {
+    .section__pic-container img {
+        max-width: 80%; /* Reduce the image size on smaller screens */
+    }
+}
+@media (max-width: 768px) {
+    .submit-btn {
+        font-size: 14px; /* Adjusted font size for smaller screens */
+        padding: 8px 16px; /* Adjusted padding for smaller screens */
+    }
+}
+@media (max-width: 768px) {
+    .arrowbutton {
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+}   
